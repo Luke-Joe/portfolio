@@ -4,6 +4,10 @@
 
 @layer components {
   .privacy-par {
-    @apply py-1;
+    @apply pt-1;
+  }
+
+  .privacy-header {
+    @apply text-3xl font-black mb-2 mt-6 underline decoration-yellow-400 decoration-4 underline-offset-8;
   }
 }
