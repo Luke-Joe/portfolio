@@ -16,7 +16,7 @@ function Hero() {
     //   </Link>
     // </div>
     <>
-      <div className="p-44 text-slate-300">
+      <div className="text-white bg-slate-800 dynamic-element dynamic-card">
         <h1 className="flex uppercase font-black text-3xl ">Luke (FILLER)</h1>
         <p>
           {" "}

@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-slate-800">
+      <div className="min-h-screen h-fit bg-slate-800">
         <Navbar toggle={toggle} />
         <Dropdown isOpen={isOpen} toggle={toggle} />
         <div className="h-56">
@@ -45,15 +45,14 @@ function App() {
             <ME109 />
           </Canvas>
         </div>
-        <div className="h-screen shadow-2xl flex-auto justify-center items-center dynamic-card">
-          <Routes>
-            <Route path="/" exact element={<Home />} />
-            <Route path="/Privacy" element={<Privacy />} />
-            <Route path="/Projects" element={<Projects />} />
-          </Routes>
-        </div>
-        <Footer />
+
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/Privacy" element={<Privacy />} />
+          <Route path="/Projects" element={<Projects />} />
+        </Routes>
       </div>
+      <Footer />
     </>
   );
 }
