@@ -10,4 +10,8 @@
   .privacy-header {
     @apply text-3xl font-black mb-2 mt-6 underline decoration-yellow-400 decoration-4 underline-offset-8;
   }
+
+  .dynamic-card {
+    @apply xl:mx-96 lg:mx-72 md:mx-52 sm:mx-40 mx-16 my-12;
+  }
 }
