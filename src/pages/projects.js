@@ -2,9 +2,22 @@ import React from "react";
 
 const projects = () => {
   return (
-    <div className="h-fit flex justify-center items-center bg-yellow-300">
-      <h1 className="text-9xl uppercase font-black">Projects Page</h1>
-    </div>
+    <>
+      <div className="flex justify-center items-center dynamic-card">
+        <div className="bg-slate-800 text-slate-200 px-16 sm:max-w-xl">
+          <h1 className="text-3xl uppercase font-black">Projects</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -37,7 +37,7 @@ function App() {
       <div className="min-h-screen h-fit bg-slate-800">
         <Navbar toggle={toggle} />
         <Dropdown isOpen={isOpen} toggle={toggle} />
-        <div className="h-56">
+        <div className="h-96">
           <Canvas>
             <ambientLight intensity={0.5} />
             <directionalLight position={[-2, 5, 2]} intensity={1} />

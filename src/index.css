@@ -12,10 +12,6 @@
   }
 
   .dynamic-card {
-    @apply xl:mx-96 lg:mx-72 md:mx-52 sm:mx-40 mx-16 my-12;
-  }
-
-  .dynamic-element {
-    @apply xl:px-44 lg:px-32 md:px-24 sm:px-16 px-8 py-16;
+    @apply sm:px-16;
   }
 }
