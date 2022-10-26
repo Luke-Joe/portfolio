@@ -7,7 +7,7 @@ function Hero() {
     <>
       <div className="flex justify-center items-center dynamic-card">
         <div className="text-slate-200 bg-slate-800 sm:max-w-xl px-16">
-          <h1 className="flex uppercase font-black text-3xl">Luke Joe</h1>
+          <h1 className="flex uppercase font-black text-3xl pb-6">Luke Joe</h1>
           <p>
             {" "}
             I'm a fourth year undergraduate student at the University of British
