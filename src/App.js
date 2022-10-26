@@ -38,7 +38,7 @@ function App() {
         <Navbar toggle={toggle} />
         <Dropdown isOpen={isOpen} toggle={toggle} />
         <div className="h-96">
-          <Canvas>
+          <Canvas camera={{ fov: 75, position: [0, 2, 5] }}>
             <ambientLight intensity={0.5} />
             <directionalLight position={[-2, 5, 2]} intensity={1} />
             <OrbitControls />

@@ -33,7 +33,7 @@ const projects = () => {
     <>
       <div className="flex justify-center items-center dynamic-card">
         <div className="bg-slate-800 text-slate-200 px-16 sm:max-w-xl">
-          <h1 className="text-3xl uppercase font-black pb-6">Projects</h1>
+          <h1 className="text-3xl uppercase font-black pb-3">Projects</h1>
           <div className="portfolio-container">
             {items.map(({ id, src }) => (
               <div key={id} className="portfolio-item">
