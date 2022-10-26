@@ -24,7 +24,7 @@
   }
 
   .portfolio-item {
-    @apply shadow-md rounded-lg;
+    @apply rounded-lg;
   }
 
   .portfolio-links {

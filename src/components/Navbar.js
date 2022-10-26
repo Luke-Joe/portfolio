@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "../assets/resume.pdf";
 
 const Navbar = ({ toggle }) => {
   return (
@@ -34,7 +35,9 @@ const Navbar = ({ toggle }) => {
           <Link className="p-4" to="/projects">
             Projects
           </Link>
-          <Link className="p-4">Resume</Link>
+          <a href={Resume} className="p-4" target="_blank" rel="noreferrer">
+            Resume
+          </a>
         </div>
       </nav>
     </div>
