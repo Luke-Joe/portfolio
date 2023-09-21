@@ -2,6 +2,8 @@ import React from "react";
 import Mondo from "../assets/MUNDOICON.png";
 import Plane from "../assets/PLANE.png";
 import test from "../assets/Mondo.png";
+import Java from "../assets/Java.png";
+import Chef from "../assets/Chef.PNG";
 
 const projects = () => {
   const items = [
@@ -14,39 +16,40 @@ const projects = () => {
     },
     {
       id: 2,
-      src: test,
+      src: Chef,
       title: "Sleepy Chef",
-      description: "test description ",
-      repo: "",
+      description:
+        "Cooking simulation game created with a team for UBC Game Dev",
+      repo: "https://www.ubcgamedev.com/sleepy-chef",
     },
     {
       id: 3,
       src: Plane,
       title: "Paper Plane",
       description: "Fall down game featuring a paper plane",
-      repo: "",
+      repo: "https://github.com/Luke-Joe/Paper-Plane",
     },
     {
       id: 4,
-      src: Mondo,
-      title: "title",
+      src: Java,
+      title: "Java Idle Game",
       description: "test description ",
-      repo: "",
+      repo: "https://github.com/Luke-Joe/idle-game",
     },
-    {
-      id: 5,
-      src: Mondo,
-      title: "title",
-      description: "test description ",
-      repo: "",
-    },
-    {
-      id: 6,
-      src: Mondo,
-      title: "title",
-      description: "test description ",
-      repo: "",
-    },
+    // {
+    //   id: 5,
+    //   src: Mondo,
+    //   title: "title",
+    //   description: "test description ",
+    //   repo: "",
+    // },
+    // {
+    //   id: 6,
+    //   src: Mondo,
+    //   title: "title",
+    //   description: "test description ",
+    //   repo: "",
+    // },
   ];
 
   return (

@@ -30,6 +30,12 @@ function RotatingObject() {
 export default function Model(props) {
   return (
     <group {...props} dispose={null}>
+      <ambientLight color={"#EAB003"}></ambientLight>
+      <pointLight
+        position={[3, 3, -3]}
+        intensity={1.5}
+        color={"#EAB003"}
+      ></pointLight>
       <RotatingObject />
     </group>
   );
