@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Dropdown from "./components/Dropdown";
 import ME109 from "./components/ME109";
+import Tank from "./components/Tank";
 import Footer from "./components/Footer";
 import Home from "./pages/index";
 import Privacy from "./pages/privacy";
@@ -42,7 +43,7 @@ function App() {
             <ambientLight intensity={0.5} />
             <directionalLight position={[-2, 5, 2]} intensity={1} />
             <OrbitControls />
-            <ME109 />
+            <Tank />
           </Canvas>
         </div>
 

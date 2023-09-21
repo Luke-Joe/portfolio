@@ -12,8 +12,7 @@ function Hero() {
             {" "}
             I'm a fourth year undergraduate student at the University of British
             Columbia in Vancouver, Canada currently pursuing a degree in
-            Computer Science. In my spare time, I enjoy running and game
-            development.
+            Computer Science. In my spare time, I enjoy game development.
           </p>
           <div className="px-4 flex items-center justify-center space-x-5 py-10">
             <a

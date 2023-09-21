@@ -20,7 +20,7 @@
   }
 
   .portfolio-image {
-    @apply rounded-md duration-200 hover:scale-105;
+    @apply rounded-md duration-200 object-fill hover:scale-105 w-36 lg:w-48 h-16 lg:h-32;
   }
 
   .portfolio-item {

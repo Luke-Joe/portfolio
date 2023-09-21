@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "../assets/resume.pdf";
 
 const Dropdown = ({ isOpen, toggle }) => {
   return (
@@ -20,6 +21,9 @@ const Dropdown = ({ isOpen, toggle }) => {
       <Link classname="p-4" to="/projects">
         Projects
       </Link>
+      <a href={Resume} className="p-4" target="_blank" rel="noreferrer">
+        Resume
+      </a>
     </div>
   );
 };

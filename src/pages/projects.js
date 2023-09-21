@@ -1,5 +1,7 @@
 import React from "react";
-import Mondo from "../assets/Mondo.png";
+import Mondo from "../assets/MUNDOICON.png";
+import Plane from "../assets/PLANE.png";
+import test from "../assets/Mondo.png";
 
 const projects = () => {
   const items = [
@@ -7,37 +9,43 @@ const projects = () => {
       id: 1,
       src: Mondo,
       title: "Mondo Dodgeball",
-      description: "Two player game for Android",
+      description: "Two player 1v1 game for Android",
+      repo: "https://github.com/Luke-Joe/MONDO",
     },
     {
       id: 2,
-      src: Mondo,
-      title: "title",
+      src: test,
+      title: "Sleepy Chef",
       description: "test description ",
+      repo: "",
     },
     {
       id: 3,
-      src: Mondo,
-      title: "title",
-      description: "test description ",
+      src: Plane,
+      title: "Paper Plane",
+      description: "Fall down game featuring a paper plane",
+      repo: "",
     },
     {
       id: 4,
       src: Mondo,
       title: "title",
       description: "test description ",
+      repo: "",
     },
     {
       id: 5,
       src: Mondo,
       title: "title",
       description: "test description ",
+      repo: "",
     },
     {
       id: 6,
       src: Mondo,
       title: "title",
       description: "test description ",
+      repo: "",
     },
   ];
 
@@ -47,9 +55,15 @@ const projects = () => {
         <div className="bg-slate-800 text-slate-200 px-16 sm:max-w-xl">
           <h1 className="text-3xl uppercase font-black pb-3">Projects</h1>
           <div className="portfolio-container">
-            {items.map(({ id, src, title, description }) => (
+            {items.map(({ id, src, title, description, repo }) => (
               <div key={id} className="portfolio-item">
-                <img src={src} className="portfolio-image" alt="" />
+                <a href={repo} target="_blank">
+                  <img
+                    src={src}
+                    className="object-cover portfolio-image"
+                    alt=""
+                  />
+                </a>
                 <div className="flex items-center justify-center py-1">
                   <h3 className="font-semibold">{title}</h3>
                 </div>
