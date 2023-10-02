@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="flex justify-center items-center h-16 bg-black text-white">
-      <p>© 2022 Luke Joe</p>
+      <p>© 2023 Luke Joe</p>
     </div>
   );
 };
