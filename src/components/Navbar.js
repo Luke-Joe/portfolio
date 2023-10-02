@@ -28,7 +28,7 @@ const Navbar = ({ toggle }) => {
             />
           </svg>
         </div>
-        <div className="pr-8 sm:block hidden ">
+        <div className="pr-4 sm:block hidden ">
           <Link className="p-4" to="/">
             Home
           </Link>

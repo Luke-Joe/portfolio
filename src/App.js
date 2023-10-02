@@ -8,6 +8,8 @@ import Tank from "./components/Tank";
 import Footer from "./components/Footer";
 import Home from "./pages/index";
 import Privacy from "./pages/privacy";
+import Work from "./pages/work";
+import NotFound from "./pages/404";
 import Projects from "./pages/projects";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
@@ -51,6 +53,8 @@ function App() {
           <Route path="/" exact element={<Home />} />
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Projects" element={<Projects />} />
+          <Route path="/Work" element={<Work />} />
+          <Route path="/404" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />

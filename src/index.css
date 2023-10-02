@@ -34,4 +34,8 @@
   .portfolio-btn {
     @apply w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105;
   }
+
+  .dropdown-btn {
+    @apply p-4 text-white hover:bg-blue-600 rounded;
+  }
 }

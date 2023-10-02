@@ -18,22 +18,21 @@ const projects = () => {
       id: 2,
       src: Chef,
       title: "Sleepy Chef",
-      description:
-        "Cooking simulation game created with a team for UBC Game Dev",
+      description: "Cooking simulation created with a team for UBC Game Dev",
       repo: "https://www.ubcgamedev.com/sleepy-chef",
     },
     {
       id: 3,
       src: Plane,
       title: "Paper Plane",
-      description: "Fall down game featuring a paper plane",
+      description: "Endless faller featuring a paper plane",
       repo: "https://github.com/Luke-Joe/Paper-Plane",
     },
     {
       id: 4,
       src: Java,
       title: "Java Idle Game",
-      description: "test description ",
+      description: "Basic clicker/idle game created using Java",
       repo: "https://github.com/Luke-Joe/idle-game",
     },
     // {
@@ -56,7 +55,9 @@ const projects = () => {
     <>
       <div className="flex justify-center items-center dynamic-card">
         <div className="bg-slate-800 text-slate-200 px-16 sm:max-w-xl">
-          <h1 className="text-3xl uppercase font-black pb-3">Projects</h1>
+          <h1 className="text-3xl uppercase font-black pb-3 text-center sm:text-left">
+            Projects
+          </h1>
           <div className="portfolio-container">
             {items.map(({ id, src, title, description, repo }) => (
               <div key={id} className="portfolio-item">
