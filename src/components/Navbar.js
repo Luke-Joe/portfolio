@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
         className="flex justify-between items-center h-16 text-white relative shadow-sm font-mono text-lg my-0 sm:w-fit space-x-60"
         role="navigation"
       >
-        <Link to="/" className="pl-8">
+        <Link to="/portfolio" className="pl-8">
           Luke Joe
         </Link>
         <div className="px-4 cursor-pointer sm:hidden" onClick={toggle}>
@@ -29,7 +29,7 @@ const Navbar = ({ toggle }) => {
           </svg>
         </div>
         <div className="pr-4 sm:block hidden ">
-          <Link className="p-4" to="/">
+          <Link className="p-4" to="/portfolio">
             Home
           </Link>
           <Link className="p-4" to="/projects">
