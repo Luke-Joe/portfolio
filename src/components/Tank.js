@@ -7,7 +7,9 @@ import { useGLTF } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
 function RotatingObject() {
-  const { nodes, materials } = useGLTF("TankModel.gltf");
+  const { nodes, materials } = useGLTF(
+    `${process.env.PUBLIC_URL}/TankModel.gltf`
+  );
   const myMesh = React.useRef();
 
   useFrame(({ clock }) => {
@@ -41,4 +43,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload("TankModel.gltf");
+useGLTF.preload(`${process.env.PUBLIC_URL}/TankModel.gltf`);

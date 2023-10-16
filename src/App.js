@@ -50,11 +50,11 @@ function App() {
         </div>
 
         <Routes>
-          <Route path="/Portfolio" exact element={<Home />} />
+          <Route path="/" exact element={<Home />} />
           <Route path="/Privacy" element={<Privacy />} />
           <Route path="/Projects" element={<Projects />} />
           <Route path="/Work" element={<Work />} />
-          <Route path="/" element={<NotFound />} />
+          <Route path="/Error" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
